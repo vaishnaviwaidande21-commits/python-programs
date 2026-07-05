@@ -1,1 +1,3 @@
+str = "Maharashtra"
 
+print(str[1:11:2])
