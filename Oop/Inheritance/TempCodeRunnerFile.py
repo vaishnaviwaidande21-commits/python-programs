@@ -1,0 +1,5 @@
+obj.xyz()
+# obj.show()
+# obj.abc()
+# obj.pqr()
+# obj.show_p2()
