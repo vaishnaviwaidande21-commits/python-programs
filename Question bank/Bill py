@@ -1,0 +1,18 @@
+unit = int(input(" enter the units: "))
+
+if(unit>0 and unit<=100):
+    bill = unit*5
+    print(" units = ",bill)
+
+elif(unit>100 and unit<=200):
+    bill = (unit*7)+500
+    print(" units = ",bill)
+
+elif(unit>200):
+    bill = (unit*10)+1200
+    print(" units = ",bill)
+
+gst = bill *18/100
+total = bill +gst
+
+print(" total bill = ",total)
